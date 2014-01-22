@@ -1,0 +1,77 @@
+INSERT INTO `$`.user_group(id, name) VALUES(1, 'Super Administrator');
+INSERT INTO `$`.user_group(id, name) VALUES(2, 'Administrator');
+INSERT INTO `$`.user_group(id, name) VALUES(3, 'Moderator');
+INSERT INTO `$`.user_group(id, name) VALUES(4, 'User');
+
+INSERT INTO `$`.user(username, password, user_group_id) VALUES('SuperAdmin', 'd033e22ae348aeb5660fc2140aec35850c4da997', 1);
+INSERT INTO `$`.user(username, password, user_group_id) VALUES('Admin', 'd033e22ae348aeb5660fc2140aec35850c4da997', 2);
+INSERT INTO `$`.user(username, password, user_group_id) VALUES('Moderator', 'd033e22ae348aeb5660fc2140aec35850c4da997', 3);
+
+
+INSERT INTO `$`.race(name, tag, icon) VALUES('Protoss', 'P', 'protoss.png');
+INSERT INTO `$`.race(name, tag, icon) VALUES('Terran', 'T', 'terran.png');
+INSERT INTO `$`.race(name, tag, icon) VALUES('Zerg', 'Z', 'zerg.png');
+INSERT INTO `$`.race(name, tag, icon) VALUES('Random', 'R', 'random.png');
+
+INSERT INTO `$`.map(name, image) VALUES('iCCup | Alternative 1.3', 'alternative.png');
+INSERT INTO `$`.map(name, image) VALUES('iCCup | Andromeda 1.0', 'andromeda.png');
+INSERT INTO `$`.map(name, image) VALUES('iCCup | Aztec 2.1', 'aztec.png');
+INSERT INTO `$`.map(name, image) VALUES('iCCup | Beltway 2.0', 'beltway.png');
+INSERT INTO `$`.map(name, image) VALUES('iCCup | Benzene', 'benzene.png');
+INSERT INTO `$`.map(name, image) VALUES('iCCup | Bloody Ridge 2.1', 'bloodyridge.png');
+INSERT INTO `$`.map(name, image) VALUES('iCCup | Blue Storm 1.2', ' bluestorm.png');
+INSERT INTO `$`.map(name, image) VALUES('iCCup | Chain Reaction 2.0', 'chainreaction.png');
+INSERT INTO `$`.map(name, image) VALUES('iCCup | Circuit Breaker', 'circuitbreaker.png');
+INSERT INTO `$`.map(name, image) VALUES('iCCup | Colosseum II', 'colosseumii.png');
+INSERT INTO `$`.map(name, image) VALUES('iCCup | Dante\'s Peak', 'dantespeak.png');
+INSERT INTO `$`.map(name, image) VALUES('iCCup | Desertec 1.0', 'desertec.png');
+INSERT INTO `$`.map(name, image) VALUES('iCCup | Destination 1.1', 'destination.png');
+INSERT INTO `$`.map(name, image) VALUES('iCCup | Electric Circuit 2.1', 'electriccircuit.png');
+INSERT INTO `$`.map(name, image) VALUES('iCCup | Empire of the Sun 2.0', 'empireofthesun.png');
+INSERT INTO `$`.map(name, image) VALUES('iCCup | Eye of the Storm', 'eyeofthestorm.png');
+INSERT INTO `$`.map(name, image) VALUES('iCCup | Fighting Spirit 1.3', 'fightingspirit.png');
+INSERT INTO `$`.map(name, image) VALUES('iCCup | Fortress 2.0', 'fortress.png');
+INSERT INTO `$`.map(name, image) VALUES('iCCup | Gaia', 'gaia.png');
+INSERT INTO `$`.map(name, image) VALUES('iCCup | Gemlong 1.0', 'gemlong.png');
+INSERT INTO `$`.map(name, image) VALUES('iCCup | Gladiator', 'gladiator.png');
+INSERT INTO `$`.map(name, image) VALUES('iCCup | God\'s Garden', 'godsgarden.png');
+INSERT INTO `$`.map(name, image) VALUES('iCCup | Grandline 2.2', 'grandline.png');
+INSERT INTO `$`.map(name, image) VALUES('iCCup | Ground Zero 2.0', 'groundzero.png');
+INSERT INTO `$`.map(name, image) VALUES('iCCup | Heartbreak Ridge 2.1', 'heartbreakridge.png');
+INSERT INTO `$`.map(name, image) VALUES('iCCup | Hunters KeSPA 1.1', 'hunterskespa.png');
+INSERT INTO `$`.map(name, image) VALUES('iCCup | Icarus', 'icarus.png');
+INSERT INTO `$`.map(name, image) VALUES('iCCup | Jade 2.0', 'jade.png');
+INSERT INTO `$`.map(name, image) VALUES('iCCup | La Mancha 1.1', 'lamancha.png');
+INSERT INTO `$`.map(name, image) VALUES('iCCup | Longinus', 'longinus.png');
+INSERT INTO `$`.map(name, image) VALUES('iCCup | Lost Temple 2.4', 'losttemple.png');
+INSERT INTO `$`.map(name, image) VALUES('iCCup | Luna the Final', 'lunathefinal.png');
+INSERT INTO `$`.map(name, image) VALUES('iCCup | Match Point 1.3', 'matchpoint.png');
+INSERT INTO `$`.map(name, image) VALUES('iCCup | Montecristo 1.03', 'montecristo.png');
+INSERT INTO `$`.map(name, image) VALUES('iCCup | Moonglaive 2.1', 'moonglaive.png');
+INSERT INTO `$`.map(name, image) VALUES('iCCup | Neo Medusa 2.1', 'neomedusa.png');
+INSERT INTO `$`.map(name, image) VALUES('iCCup | Nostalgia 1.3', 'nostalgia.png');
+INSERT INTO `$`.map(name, image) VALUES('iCCup | Othello 1.1', 'othello.png');
+INSERT INTO `$`.map(name, image) VALUES('iCCup | Outlier 2.2', 'outlier.png');
+INSERT INTO `$`.map(name, image) VALUES('iCCup | Outsider 2.2', 'outsider.png');
+INSERT INTO `$`.map(name, image) VALUES('iCCup | Pathfinder', 'pathfinder.png');
+INSERT INTO `$`.map(name, image) VALUES('iCCup | Polaris Rhapsody 1.0', 'polarisrhapsody.png');
+INSERT INTO `$`.map(name, image) VALUES('iCCup | Python 1.3', 'python.png');
+INSERT INTO `$`.map(name, image) VALUES('iCCup | Ressonance II 1.0', 'ressonance.png');
+INSERT INTO `$`.map(name, image) VALUES('iCCup | Ride of the Valkyries', 'rideofthevalkyries.png');
+INSERT INTO `$`.map(name, image) VALUES('iCCup | Sniper Ridge 2.0', 'sniperridge.png');
+INSERT INTO `$`.map(name, image) VALUES('iCCup | Tau Cross', 'taucross.png');
+INSERT INTO `$`.map(name, image) VALUES('iCCup | Tornado 2.2', 'tornado.png');
+INSERT INTO `$`.map(name, image) VALUES('iCCup | Vampire 1.0', 'vampire.png');
+INSERT INTO `$`.map(name, image) VALUES('iCCup | Wind and Cloud 0.99', 'windandcloud.png');
+
+INSERT INTO `$`.match_state(state) VALUES('Pending');
+INSERT INTO `$`.match_state(state) VALUES('Home Team Won');
+INSERT INTO `$`.match_state(state) VALUES('Away Team Won');
+INSERT INTO `$`.match_state(state) VALUES('Cancelled');
+
+INSERT INTO `$`.game_state(state) VALUES('Pending');
+INSERT INTO `$`.game_state(state) VALUES('Home Player Won');
+INSERT INTO `$`.game_state(state) VALUES('Away Player Won');
+INSERT INTO `$`.game_state(state) VALUES('Home Player Won by W.O.');
+INSERT INTO `$`.game_state(state) VALUES('Away Player Won by W.O.');
+INSERT INTO `$`.game_state(state) VALUES('Cancelled');
